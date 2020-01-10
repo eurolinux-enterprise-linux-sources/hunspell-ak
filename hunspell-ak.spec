@@ -1,7 +1,7 @@
 Name: hunspell-ak
 Summary: Akan hunspell dictionaries
 Version: 0.6
-Release: 6%{?dist}
+Release: 7%{?dist}
 Group: Applications/Text
 Source: http://releases.mozilla.org/pub/mozilla.org/addons/9978/akan_ns__mfuaasekyer__-%{version}-fx.xpi
 URL: http://kasahorow.org/content/akan-nsɛmfuaasekyerɛ
@@ -39,6 +39,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.6-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.6-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
